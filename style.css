@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    color:white;
+    position: absolute;
+    top:33%;
+    left:36%;
+    width:25%;
+}
+
+.container h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    display: inline-block;
+    border-bottom: 5px solid purple;
+    margin-bottom: 22px;
+}
+
+.box{
+    width:100%;
+    border-bottom: 2px solid purple;
+}
+.box input{
+    width:75%;
+    color:white;
+    border:none;
+    outline:none;
+    margin:10px 0px;
+    font-size: 18px;
+    padding: 5px 0px;
+    background:none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.box i{
+    width:25px;
+    text-align: center;
+}
+
+.btn{
+    outline:none;
+    cursor:pointer;
+    width:25%;
+    margin:12px 0;
+    padding:6px;
+    border:3px solid purple;
+    border-radius: 12px;
+    background:none;
+    color:white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn:hover{
+    background-color: rgb(243, 225, 243);
+    color:purple;
+}
